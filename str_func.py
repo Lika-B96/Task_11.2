@@ -4,3 +4,8 @@ def to_uppercase(s):
     """
     return s.upper()
 
+def capitalize_first_letter_of_each_word(s):
+    """
+    Возвращает строку с заглавной первой буквой каждого слова.
+    """
+    return s.title()
